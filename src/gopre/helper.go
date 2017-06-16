@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func pre(x interface{}, y ...interface{}) {
+func Pre(x interface{}, y ...interface{}) {
 	//rw()
 	spew.Dump(x)
 	die()
